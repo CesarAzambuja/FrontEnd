@@ -1,0 +1,101 @@
+/*Zerando configuração do navegador de margem e espaçamento*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Configurando altura em 100%*/
+
+html,body{
+    height: 100%;
+}
+
+/*Exemplos de configurações de classes*/
+.artigo{
+    width: 100%;
+    height: auto;
+    background-color: rgb(200, 200, 200);
+    padding: 40px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.artigo h1{
+    color: rgb(66, 149, 244);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: normal;
+    font-variant: small-caps;
+    letter-spacing: 5px; - espaçamento entre letra
+
+}
+
+.artigo p{
+    color: #b4b4b4;
+    text-align: left;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;  
+    line-height: 40px;  
+    
+}
+.menu{
+    width: 900px;
+    
+    margin: 30px auto;
+    text-align: center;
+    padding: auto;
+     
+}
+
+.menu > a{
+    color: red;
+    border-right: 3px solid green;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.lista,.lista2{
+    list-style-position: inside;
+    list-style-type: disc;   
+    margin-left: 20px; 
+}
+
+.lista li, .lista2 li{
+    font-size: 18px;
+    color: #4b4b4b;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.lista .item-3, .lista2 .item-3{
+    font-weight: bold;
+}
+/*especificação de tag*/
+
+.um{
+    width: 500px;
+    height: 500px;
+    background: red;
+}
+
+.um > .dois{
+    width: 300px;
+    height: 300px;
+    background: green;
+}
+
+.dois > .tres{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.tres > .quatro{
+    width: 50px;
+    height: 50px;
+    background: grey;
